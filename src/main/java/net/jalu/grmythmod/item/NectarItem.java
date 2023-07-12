@@ -12,7 +12,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 
-public class NectarItem extends MilkBucketItem {
+public class NectarItem extends Item {
 
     private static final int DRINK_DURATION = 25;
 
