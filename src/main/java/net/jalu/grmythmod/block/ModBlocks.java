@@ -16,14 +16,27 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
 
+    /**
+     * The deferred register
+     */
     public static final DeferredRegister<Block> BLOCKS =
         DeferredRegister.create(ForgeRegistries.BLOCKS, MythMod.MOD_ID);
 
+    /**
+     * A sample block for the mod, change later
+     */
     public static final RegistryObject<Block> SAMPLE_BLOCK = registerBlock("sample_block",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))); //Use copy for a pre-existing block and 'of' a fully custom one
 
-    //To add a new block, add another registry object ^, then add it to the tabs in the main class
+    // To add a new block, add another registry object ^, then add it to the tabs in the main class //
 
+    /**
+     * Function called above to register a block
+     * @param name
+     * @param block
+     * @return
+     * @param <T>
+     */
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

@@ -14,6 +14,9 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
 
+    /**
+     * Deferred register
+     */
     public static final DeferredRegister<Item> ITEMS =
         DeferredRegister.create(ForgeRegistries.ITEMS, MythMod.MOD_ID);
 

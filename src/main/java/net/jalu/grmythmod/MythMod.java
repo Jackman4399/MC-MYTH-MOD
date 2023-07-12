@@ -28,6 +28,7 @@ public class MythMod {
     public MythMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        //Registers event buses to the mod components
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
