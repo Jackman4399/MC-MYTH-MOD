@@ -1,11 +1,11 @@
 {
   "item.grmythmod.nectar": "Nectar",
 
-  "item.grmythmod.ruby": "Ruby",
+  "item.grmythmod.ruby": "Ruby Gem",
 
   "item.grmythmod.raw_ruby": "Raw Ruby Ore",
 
-  "block.mythmod.ruby_block": "Ruby Block",
+  "block.grmythmod.ruby_block": "Ruby Block",
 
   "creative.myth_tab": "Greek Myth Tab"
 }

@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -26,7 +27,7 @@ public class ModBlocks {
      * A sample block for the mod, change later
      */
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK))); //Use copy for a pre-existing block and 'of' a fully custom one
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST))); //Use copy for a pre-existing block and 'of' a fully custom one
 
     // To add a new block, add another registry object ^, then add it to the tabs in the main class //
 

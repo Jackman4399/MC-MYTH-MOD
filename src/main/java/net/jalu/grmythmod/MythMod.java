@@ -64,9 +64,9 @@ public class MythMod {
             event.accept(ModItems.RAW_RUBY);
         }
 
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.RUBY_BLOCK);
-        }
+//        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+//            event.accept(ModBlocks.RUBY_BLOCK);
+//        }
 
     }
 
