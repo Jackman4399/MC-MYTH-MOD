@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
-      "item": "grmythmd:ruby"
+      "item": "grmythmod:ruby"
     }
   },
   "pattern": [
