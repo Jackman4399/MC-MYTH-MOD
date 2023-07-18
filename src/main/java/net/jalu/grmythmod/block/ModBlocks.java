@@ -25,8 +25,8 @@ public class ModBlocks {
     /**
      * A sample block for the mod, change later
      */
-    public static final RegistryObject<Block> SAMPLE_BLOCK = registerBlock("sample_block",
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK))); //Use copy for a pre-existing block and 'of' a fully custom one
+    public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK))); //Use copy for a pre-existing block and 'of' a fully custom one
 
     // To add a new block, add another registry object ^, then add it to the tabs in the main class //
 

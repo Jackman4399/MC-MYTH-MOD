@@ -1,7 +1,11 @@
 {
   "item.grmythmod.nectar": "Nectar",
 
-  "block.mythmod.sample_block": "Sample Block",
+  "item.grmythmod.ruby": "Ruby",
+
+  "item.grmythmod.raw_ruby": "Raw Ruby Ore",
+
+  "block.mythmod.ruby_block": "Ruby Block",
 
   "creative.myth_tab": "Greek Myth Tab"
 }

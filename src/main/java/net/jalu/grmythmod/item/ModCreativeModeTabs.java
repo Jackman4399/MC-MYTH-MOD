@@ -27,7 +27,9 @@ public class ModCreativeModeTabs {
             .displayItems(((pParameters, pOutput) -> {
                 //ADD ALL MOD ITEMS HERE SO IT APPEARS IN TAB, can also add vanilla items
                 pOutput.accept(ModItems.NECTAR.get());
-                pOutput.accept(ModBlocks.SAMPLE_BLOCK.get());
+                pOutput.accept(ModBlocks.RUBY_BLOCK.get());
+                pOutput.accept(ModItems.RAW_RUBY.get());
+                pOutput.accept(ModItems.RUBY.get());
             })).build());
 
     public static void register(IEventBus eventBus) {
