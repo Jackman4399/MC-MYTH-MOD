@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "grmythmod:ruby_ore"
+              "name": "grmythmod:deepslate_ruby_ore"
             },
             {
               "type": "minecraft:item",
@@ -55,5 +55,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "grmythmod:blocks/ruby_ore"
+  "random_sequence": "grmythmod:blocks/deepslate_ruby_ore"
 }

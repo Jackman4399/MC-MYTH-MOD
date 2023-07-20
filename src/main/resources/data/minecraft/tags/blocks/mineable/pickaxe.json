@@ -1,6 +1,9 @@
 {
   "values": [
     "grmythmod:ruby_block",
-    "grmythmod:ruby_ore"
+    "grmythmod:ruby_ore",
+    "grmythmod:end_stone_ruby_ore",
+    "grmythmod:nether_ruby_ore",
+    "grmythmod:deepslate_ruby_ore"
   ]
 }
