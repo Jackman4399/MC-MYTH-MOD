@@ -29,6 +29,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
         () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST))); //Use copy for a pre-existing block and 'of' a fully custom one
 
+    public static final RegistryObject<Block> RAW_RUBY_ORE = registerBlock("raw_ruby_block",
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_BLOCK).sound(SoundType.AMETHYST)));
     // To add a new block, add another registry object ^, then add it to the tabs in the main class //
 
     /**

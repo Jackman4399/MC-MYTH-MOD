@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "": {
+      "model": "grmythmod:block/raw_ruby_ore"
+    }
+  }
+}
