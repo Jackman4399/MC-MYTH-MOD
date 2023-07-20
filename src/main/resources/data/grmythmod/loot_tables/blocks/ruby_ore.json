@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "grmythmod:raw_ruby_block"
+          "name": "grmythmod:ruby_ore"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "grmythmod:blocks/ruby_block"
+  "random_sequence": "grmythmod:blocks/ruby_ore"
 }

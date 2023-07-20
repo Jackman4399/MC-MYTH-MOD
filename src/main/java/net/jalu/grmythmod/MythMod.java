@@ -68,6 +68,10 @@ public class MythMod {
             event.accept(ModBlocks.RUBY_BLOCK);
         }
 
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.RUBY_ORE);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

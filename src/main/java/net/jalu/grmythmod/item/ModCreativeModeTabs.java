@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                 pOutput.accept(ModItems.RAW_RUBY.get());
                 pOutput.accept(ModItems.RUBY.get());
+                pOutput.accept(ModBlocks.RUBY_ORE.get());
             })).build());
 
     public static void register(IEventBus eventBus) {
