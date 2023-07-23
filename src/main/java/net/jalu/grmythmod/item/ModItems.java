@@ -1,12 +1,10 @@
 package net.jalu.grmythmod.item;
 
 import net.jalu.grmythmod.MythMod;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.food.FoodProperties;
+import net.jalu.grmythmod.item.custom.MetalDetectorItem;
+import net.jalu.grmythmod.item.custom.NectarItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.MilkBucketItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -28,6 +26,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> RAW_RUBY = ITEMS.register("raw_ruby",
         () -> new Item( new Item.Properties()));
+
+    public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
+        () -> new MetalDetectorItem( new Item.Properties().durability(100)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

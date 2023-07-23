@@ -1,4 +1,4 @@
-package net.jalu.grmythmod.item;
+package net.jalu.grmythmod.item.custom;
 
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.server.level.ServerPlayer;
