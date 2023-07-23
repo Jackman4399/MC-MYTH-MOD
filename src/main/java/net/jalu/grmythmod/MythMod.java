@@ -28,6 +28,7 @@ public class MythMod {
     public MythMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        //Registers event buses to the mod components
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
@@ -56,6 +57,23 @@ public class MythMod {
 
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.NECTAR);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RUBY);
+            event.accept(ModItems.RAW_RUBY);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RUBY_BLOCK);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.METAL_DETECTOR);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.RUBY_ORE);
         }
 
     }

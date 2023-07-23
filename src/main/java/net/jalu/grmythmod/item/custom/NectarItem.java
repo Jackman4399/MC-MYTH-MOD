@@ -1,4 +1,4 @@
-package net.jalu.grmythmod.item;
+package net.jalu.grmythmod.item.custom;
 
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.server.level.ServerPlayer;
@@ -12,7 +12,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 
-public class NectarItem extends MilkBucketItem {
+public class NectarItem extends Item {
 
     private static final int DRINK_DURATION = 25;
 
@@ -35,8 +35,9 @@ public class NectarItem extends MilkBucketItem {
             pStack.shrink(1);
         }
 
-        //EFFECTS
-        pEntityLiving.removeAllEffects();
+
+        pEntityLiving.removeAllEffects(); // Removes all current effects
+        //EFFECTS BELOW
         pEntityLiving.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 400, 1), pEntityLiving);
         pEntityLiving.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 5000, 1), pEntityLiving);
         pEntityLiving.addEffect(new MobEffectInstance(MobEffects.BLINDNESS, 100, 1), pEntityLiving);

@@ -1,7 +1,21 @@
 {
   "item.grmythmod.nectar": "Nectar",
 
-  "block.mythmod.sample_block": "Sample Block",
+  "item.grmythmod.ruby": "Ruby Gem",
+
+  "item.grmythmod.raw_ruby": "Raw Ruby Ore",
+
+  "item.grmythmod.metal_detector": "Metal Detector",
+
+  "block.grmythmod.ruby_block": "Ruby Block",
+
+  "block.grmythmod.ruby_ore": "Ruby Ore",
+
+  "block.grmythmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+  "block.grmythmod.nether_ruby_ore": "Nether Ruby Ore",
+
+  "block.grmythmod.end_stone_ruby_ore": "End Stone Ruby Ore",
 
   "creative.myth_tab": "Greek Myth Tab"
 }
