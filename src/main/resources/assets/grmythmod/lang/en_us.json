@@ -23,5 +23,7 @@
 
   "block.grmythmod.sound_block": "Sound Block",
 
+  "tooltip.grmythmod.metal_detector_tooltip": "Finds valuable underground. Set to IRON",
+
   "creative.myth_tab": "Greek Myth Tab"
 }
