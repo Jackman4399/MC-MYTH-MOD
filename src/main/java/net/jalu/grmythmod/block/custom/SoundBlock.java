@@ -30,7 +30,7 @@ public class SoundBlock extends Block {
         pLevel.playSound(pPlayer, pPos, SoundEvents.NOTE_BLOCK_DIDGERIDOO.get(),
             SoundSource.BLOCKS, 1f, 1f);
 
-        return InteractionResult.SUCCESS; //Adds right clicking animation by returning this
+        return InteractionResult.SUCCESS; //Adds right-clicking animation by returning this
     }
 
     @Override
