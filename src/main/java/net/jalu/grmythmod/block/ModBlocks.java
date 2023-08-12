@@ -1,6 +1,7 @@
 package net.jalu.grmythmod.block;
 
 import net.jalu.grmythmod.MythMod;
+import net.jalu.grmythmod.block.custom.SoundBlock;
 import net.jalu.grmythmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -46,6 +47,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore",
         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE).strength(5f).requiresCorrectToolForDrops(),
             UniformInt.of(3,7)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+        () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
     // To add a new block, add another registry object ^, then add it to the tabs in the main class //
 

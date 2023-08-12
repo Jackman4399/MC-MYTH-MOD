@@ -35,6 +35,9 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModBlocks.END_STONE_RUBY_ORE.get());
                 pOutput.accept(ModBlocks.NETHER_RUBY_ORE.get());
                 pOutput.accept(ModBlocks.DEEPSLATE_RUBY_ORE.get());
+                pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                pOutput.accept(ModItems.STRAWBERRY.get());
+                pOutput.accept(ModItems.PINE_CONE.get());
 
             })).build());
 
