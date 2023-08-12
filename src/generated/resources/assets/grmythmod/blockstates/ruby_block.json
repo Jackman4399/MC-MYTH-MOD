@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "grmythmod:block/ruby_block"
+    }
+  }
+}

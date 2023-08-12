@@ -5,6 +5,8 @@ import net.jalu.grmythmod.block.ModBlocks;
 import net.jalu.grmythmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.MilkBucketItem;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -43,6 +45,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.RUBY.get(), 9)
             .requires(ModBlocks.RUBY_BLOCK.get())
             .unlockedBy(getHasName(ModBlocks.RUBY_BLOCK.get()), has(ModBlocks.RUBY_BLOCK.get()))
+            .save(pWriter);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.NECTAR.get())
+            .requires(Items.MILK_BUCKET)
+            .requires(Items.HONEY_BOTTLE)
+            .unlockedBy(getHasName(Items.HONEY_BOTTLE), has(Items.HONEY_BOTTLE))
             .save(pWriter);
     }
 

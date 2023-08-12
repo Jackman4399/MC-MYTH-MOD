@@ -1,0 +1,5 @@
+// 1.20.1	2023-08-12T15:08:54.1930447	Tags for minecraft:block mod id grmythmod
+c998e49e275553773463d6116b2233978673b3b5 data/grmythmod/tags/blocks/metal_detector_valuables.json
+7935088168260cb0e06273b91f91c38d185a81fd data/minecraft/tags/blocks/mineable/pickaxe.json
+5d053e5dc179112edb6390d1b6275c97ea10736e data/minecraft/tags/blocks/needs_diamond_tool.json
+4b7ed3156d508a512480d6bfb39ed1ed9c7b45a1 data/minecraft/tags/blocks/needs_iron_tool.json
