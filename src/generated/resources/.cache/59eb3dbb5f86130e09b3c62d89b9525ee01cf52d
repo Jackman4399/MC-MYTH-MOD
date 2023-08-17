@@ -1,7 +1,16 @@
-// 1.20.1	2023-08-12T15:08:54.1907114	Loot Tables
+// 1.20.1	2023-08-17T19:51:12.6950949	Loot Tables
 2d9f97564a5a6a8ac04f01d28e844a1f58a35344 data/grmythmod/loot_tables/blocks/deepslate_ruby_ore.json
 e8317abf49dd58ffa890a31240df9b53c7617c60 data/grmythmod/loot_tables/blocks/end_stone_ruby_ore.json
 4e0f1c3c58692bcfc70dc72d2ffee489c3fe3a97 data/grmythmod/loot_tables/blocks/nether_ruby_ore.json
 73f89259a35ed1935cb72e1d3cf75a230ea1da44 data/grmythmod/loot_tables/blocks/ruby_block.json
+81d94fc9fd2c0ce2b1a0e3e2cd1c5e40a418cad9 data/grmythmod/loot_tables/blocks/ruby_button.json
+6d8a1307db9e5ac94a23e324c7b72a0d84d01eda data/grmythmod/loot_tables/blocks/ruby_door.json
+6ae620c241c0f665f16132288a487c9217858b95 data/grmythmod/loot_tables/blocks/ruby_fence.json
+384cb53fa830e63c27c0a10450df00145a504150 data/grmythmod/loot_tables/blocks/ruby_fence_gate.json
 86e67bb5b0c843c741ae7fc6536d0667d39ecd6f data/grmythmod/loot_tables/blocks/ruby_ore.json
+18f708644c4ec6ffe2bc1924e88e3e72deb91393 data/grmythmod/loot_tables/blocks/ruby_pressure_plate.json
+fd826802a139dde686951ee990a5e1cbcc96b817 data/grmythmod/loot_tables/blocks/ruby_slab.json
+c0d2b07276e17a4181b64caf707192eb54803492 data/grmythmod/loot_tables/blocks/ruby_stairs.json
+7af3196a91788d1b96296f673b19b8a27acba078 data/grmythmod/loot_tables/blocks/ruby_trapdoor.json
+a5864f0a3f5db8054d04a83274a0bd05500bb9fd data/grmythmod/loot_tables/blocks/ruby_wall.json
 c3192c4f3921cf20d0c62f5c4cf81506d27df14f data/grmythmod/loot_tables/blocks/sound_block.json

@@ -1,7 +1,16 @@
-// 1.20.1	2023-08-12T15:08:54.1930447	Item Models: grmythmod
+// 1.20.1	2023-08-17T20:06:09.2149994	Item Models: grmythmod
 65b74726da76b4c0a129f039d772a77a28759f89 assets/grmythmod/models/item/metal_detector.json
 efb654c0e3402e51d289a8c55ea5e420019e5a80 assets/grmythmod/models/item/nectar.json
 29ec81e17aecf401fe4e7d0c68a4ba4701ac0388 assets/grmythmod/models/item/pine_cone.json
 95ebad24c12b925832153e1a5867a5203f21fd56 assets/grmythmod/models/item/raw_ruby.json
 ebbf7c03911426b4ff134fac810e2d638f9cd387 assets/grmythmod/models/item/ruby.json
+c04c540bd9d9c49cc1d3956a0819eecc33d59e14 assets/grmythmod/models/item/ruby_button.json
+f7c93012610158cf51f6a8ca045b33ccc2c29c97 assets/grmythmod/models/item/ruby_door.json
+96adb7501c8b76ca2988a79a0ecd496d65903976 assets/grmythmod/models/item/ruby_fence.json
+111f44ab7f815f34a8d38c6b8e01d25513b6646a assets/grmythmod/models/item/ruby_fence_gate.json
+8f1f21eb440db844c177521900f74930a5fa76c4 assets/grmythmod/models/item/ruby_pressure_plate.json
+5e7f25f0394b8cb0521c4335a54379cc63dbb4c8 assets/grmythmod/models/item/ruby_slab.json
+a35314ea22bdda14ee943555bf0f5121ff853788 assets/grmythmod/models/item/ruby_stairs.json
+9c979adb768ebdd972d8de90a2e8a2fce43dbda2 assets/grmythmod/models/item/ruby_trapdoor.json
+121a64b219a66284e4b7b9ed7f0154e31a8ffbf8 assets/grmythmod/models/item/ruby_wall.json
 ec34340ef0ad3da69a6dc3407bb54b29016c9029 assets/grmythmod/models/item/strawberry.json
