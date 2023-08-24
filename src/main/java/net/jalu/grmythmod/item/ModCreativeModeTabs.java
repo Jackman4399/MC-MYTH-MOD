@@ -38,6 +38,16 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                 pOutput.accept(ModItems.STRAWBERRY.get());
                 pOutput.accept(ModItems.PINE_CONE.get());
+                pOutput.accept(ModBlocks.RUBY_DOOR.get());
+                pOutput.accept(ModBlocks.RUBY_STAIRS.get());
+                pOutput.accept(ModBlocks.RUBY_BUTTON.get());
+                pOutput.accept(ModBlocks.RUBY_SLAB.get());
+                pOutput.accept(ModBlocks.RUBY_FENCE.get());
+                pOutput.accept(ModBlocks.RUBY_FENCE_GATE.get());
+                pOutput.accept(ModBlocks.RUBY_WALL.get());
+                pOutput.accept(ModBlocks.RUBY_PRESSURE_PLATE.get());
+                pOutput.accept(ModBlocks.RUBY_TRAPDOOR.get());
+                pOutput.accept(ModItems.RUBY_STAFF.get());
 
             })).build());
 

@@ -25,5 +25,25 @@
 
   "tooltip.grmythmod.metal_detector_tooltip": "Finds valuable underground. Set to IRON",
 
+  "block.grmythmod.ruby_stairs" : "Ruby Stairs",
+
+  "block.grmythmod.ruby_slab" : "Ruby Slab",
+
+  "block.grmythmod.ruby_button" : "Ruby Button",
+
+  "block.grmythmod.ruby_pressure_plate" : "Ruby Pressure Plate",
+
+  "block.grmythmod.ruby_fence" : "Ruby Fence",
+
+  "block.grmythmod.ruby_fence_gate" : "Ruby Fence Gate",
+
+  "block.grmythmod.ruby_wall" : "Ruby Wall",
+
+  "block.grmythmod.ruby_door" : "Ruby Door",
+
+  "block.grmythmod.ruby_trapdoor" : "Ruby Trapdoor",
+
+  "block.grmythmod.ruby_staff" : "Ruby Staff",
+
   "creative.myth_tab": "Greek Myth Tab"
 }

@@ -43,5 +43,14 @@ public class ModBlockTagGenetaror extends BlockTagsProvider {
 
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL)
             .add(ModBlocks.RUBY_BLOCK.get());
+
+        this.tag(BlockTags.FENCES)
+            .add(ModBlocks.RUBY_FENCE.get());
+
+        this.tag(BlockTags.FENCE_GATES)
+            .add(ModBlocks.RUBY_FENCE_GATE.get());
+
+        this.tag(BlockTags.WALLS)
+            .add(ModBlocks.RUBY_WALL.get());
     }
 }

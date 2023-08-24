@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "grmythmod:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "grmythmod:block/ruby_block"
+    },
+    "type=top": {
+      "model": "grmythmod:block/ruby_slab_top"
+    }
+  }
+}

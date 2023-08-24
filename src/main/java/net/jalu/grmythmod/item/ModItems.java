@@ -33,6 +33,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
         () -> new Item( new Item.Properties().food(ModFoods.STRAWBERRY)));
+    static final RegistryObject<Item> RUBY_STAFF = ITEMS.register("ruby_staff",
+        () -> new Item( new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
         () -> new FuelItem( new Item.Properties(), 400));

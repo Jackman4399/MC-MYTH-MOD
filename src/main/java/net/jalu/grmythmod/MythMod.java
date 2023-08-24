@@ -68,6 +68,18 @@ public class MythMod {
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RUBY_DOOR);
+            event.accept(ModBlocks.RUBY_SLAB);
+            event.accept(ModBlocks.RUBY_STAIRS);
+            event.accept(ModBlocks.RUBY_FENCE);
+            event.accept(ModBlocks.RUBY_FENCE_GATE);
+            event.accept(ModBlocks.RUBY_TRAPDOOR);
+            event.accept(ModBlocks.RUBY_WALL);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+            event.accept(ModBlocks.RUBY_PRESSURE_PLATE);
+            event.accept(ModBlocks.RUBY_BUTTON);
         }
 
         if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
