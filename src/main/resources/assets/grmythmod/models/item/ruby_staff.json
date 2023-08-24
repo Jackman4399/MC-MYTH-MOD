@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base" : {
+    "parent": "grmythmod:item/ruby_staff_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "grmythmod:item/ruby_staff_2d"
+    },
+    "ground": {
+      "parent": "grmythmod:item/ruby_staff_2d"
+    },
+    "fixed": {
+      "parent": "grmythmod:item/ruby_staff_2d"
+    }
+  }
+}

@@ -47,7 +47,7 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModBlocks.RUBY_WALL.get());
                 pOutput.accept(ModBlocks.RUBY_PRESSURE_PLATE.get());
                 pOutput.accept(ModBlocks.RUBY_TRAPDOOR.get());
-
+                pOutput.accept(ModItems.RUBY_STAFF.get());
 
             })).build());
 
