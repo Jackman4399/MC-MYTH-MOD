@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "grmythmod:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "R",
+    "S",
+    "S"
+  ],
+  "result": {
+    "item": "grmythmod:ruby_shovel"
+  },
+  "show_notification": true
+}
