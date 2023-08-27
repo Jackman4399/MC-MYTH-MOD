@@ -48,6 +48,11 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModBlocks.RUBY_PRESSURE_PLATE.get());
                 pOutput.accept(ModBlocks.RUBY_TRAPDOOR.get());
                 pOutput.accept(ModItems.RUBY_STAFF.get());
+                pOutput.accept(ModItems.RUBY_SWORD.get());
+                pOutput.accept(ModItems.RUBY_PICKAXE.get());
+                pOutput.accept(ModItems.RUBY_AXE.get());
+                pOutput.accept(ModItems.RUBY_SHOVEL.get());
+                pOutput.accept(ModItems.RUBY_HOE.get());
 
             })).build());
 

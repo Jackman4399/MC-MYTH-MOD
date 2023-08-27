@@ -4,8 +4,7 @@ import net.jalu.grmythmod.MythMod;
 import net.jalu.grmythmod.item.custom.FuelItem;
 import net.jalu.grmythmod.item.custom.MetalDetectorItem;
 import net.jalu.grmythmod.item.custom.NectarItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -38,6 +37,21 @@ public class ModItems {
 
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
         () -> new FuelItem( new Item.Properties(), 400));
+
+    public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
+        () -> new SwordItem(ModToolTiers.RUBY, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.RUBY, 1, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
+            () -> new AxeItem(ModToolTiers.RUBY, 7, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
+            () -> new ShovelItem(ModToolTiers.RUBY, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> RUBY_HOE = ITEMS.register("ruby_hoe",
+            () -> new HoeItem(ModToolTiers.RUBY, 0, 0, new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

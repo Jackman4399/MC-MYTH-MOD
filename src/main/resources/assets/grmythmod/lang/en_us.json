@@ -43,7 +43,17 @@
 
   "block.grmythmod.ruby_trapdoor" : "Ruby Trapdoor",
 
-  "block.grmythmod.ruby_staff" : "Ruby Staff",
+  "item.grmythmod.ruby_staff" : "Ruby Staff",
+
+  "item.grmythmod.ruby_sword" : "Ruby Sword",
+
+  "item.grmythmod.ruby_pickaxe" : "Ruby Pickaxe",
+
+  "item.grmythmod.ruby_axe" : "Ruby Axe",
+
+  "item.grmythmod.ruby_shovel" : "Ruby Shovel",
+
+  "item.grmythmod.ruby_hoe" : "Ruby Hoe",
 
   "creative.myth_tab": "Greek Myth Tab"
 }

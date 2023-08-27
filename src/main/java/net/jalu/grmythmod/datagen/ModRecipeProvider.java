@@ -53,6 +53,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .requires(Items.HONEY_BOTTLE)
             .unlockedBy(getHasName(Items.HONEY_BOTTLE), has(Items.HONEY_BOTTLE))
             .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RUBY_SWORD.get())
+            .pattern("R")
+            .pattern("R")
+            .pattern("S")
+            .define('R', ModItems.RUBY.get())
+            .define('S', Items.STICK)
+            .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get()))
+            .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {

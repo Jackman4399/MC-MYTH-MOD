@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-12T15:30:31.575203	Recipes
+// 1.20.1	2023-08-27T18:32:51.5981113	Recipes
 87e2fb55b5b19ae15afc3784f2d21091d1769e0a data/grmythmod/advancements/recipes/misc/nectar.json
 83070c7adc8b0e712c91ca66b4c75cf701f11b95 data/grmythmod/advancements/recipes/misc/ruby.json
 183fb26be6be188aaa39fa3a283d02541d697b3f data/grmythmod/advancements/recipes/misc/ruby_block.json
@@ -12,6 +12,7 @@ bcf91b3f43f950ff9687310659d8094a4aeac9ad data/grmythmod/advancements/recipes/mis
 1d3ecb99a4e81552c16aca9450367d5ff0fb6c6f data/grmythmod/advancements/recipes/misc/ruby_from_smelting_nether_ruby_ore.json
 cf972b59b40d174cfd2c89316270c9d03f559fa2 data/grmythmod/advancements/recipes/misc/ruby_from_smelting_raw_ruby.json
 a84d9191e670946d812039bb1d898bedfc30e825 data/grmythmod/advancements/recipes/misc/ruby_from_smelting_ruby_ore.json
+d8c35bbd347de27e0aad910c4858c7dc7da41e83 data/grmythmod/advancements/recipes/misc/ruby_sword.json
 f376f7858546049184b67ef12557c6da59280e4d data/grmythmod/recipes/nectar.json
 0c77c5d3ad45e4320bcf1af13e033416ba384c18 data/grmythmod/recipes/ruby.json
 198338957906a00d2b1935e44dd549165eb35493 data/grmythmod/recipes/ruby_block.json
@@ -25,3 +26,4 @@ ed1ea9b76acce0871612733add6d41fbaeeaa37e data/grmythmod/recipes/ruby_from_blasti
 cbefb049105ffe3ae0bbe709adab41e4407a5dae data/grmythmod/recipes/ruby_from_smelting_nether_ruby_ore.json
 ca2aec113657de9544ac6e8557b128a0074d5cf8 data/grmythmod/recipes/ruby_from_smelting_raw_ruby.json
 9e218adbc36b9d363c49f92cd78a67d6e4509a1e data/grmythmod/recipes/ruby_from_smelting_ruby_ore.json
+aa1f09b2583fad2ce84e6b2dc417a1c4dd12767a data/grmythmod/recipes/ruby_sword.json

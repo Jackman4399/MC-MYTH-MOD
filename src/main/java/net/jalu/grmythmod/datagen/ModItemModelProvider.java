@@ -42,6 +42,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(ModBlocks.RUBY_FENCE_GATE);
 
         trapdoorItem(ModBlocks.RUBY_TRAPDOOR);
+
+        handheldItem(ModItems.RUBY_SWORD);
+        handheldItem(ModItems.RUBY_AXE);
+        handheldItem(ModItems.RUBY_SHOVEL);
+        handheldItem(ModItems.RUBY_PICKAXE);
+        handheldItem(ModItems.RUBY_HOE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
@@ -78,6 +84,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     private ItemModelBuilder simpleBlockItem(RegistryObject<Block> item) {
         return withExistingParent(item.getId().getPath(),
             new ResourceLocation("item/generated")).texture("layer0",
+            new ResourceLocation(MythMod.MOD_ID,"item/" + item.getId().getPath()));
+    }
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+            new ResourceLocation("item/handheld")).texture("layer0",
             new ResourceLocation(MythMod.MOD_ID,"item/" + item.getId().getPath()));
     }
 }
