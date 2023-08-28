@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "grmythmod:ruby"
+    }
+  },
+  "pattern": [
+    "R R",
+    "R R"
+  ],
+  "result": {
+    "item": "grmythmod:ruby_boots"
+  },
+  "show_notification": true
+}

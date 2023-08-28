@@ -98,6 +98,36 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .define('S', Items.STICK)
             .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get()))
             .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_HELMET.get())
+            .pattern("RRR")
+            .pattern("R R")
+            .define('R', ModItems.RUBY.get())
+            .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get()))
+            .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_CHESTPLATE.get())
+            .pattern("R R")
+            .pattern("RRR")
+            .pattern("RRR")
+            .define('R', ModItems.RUBY.get())
+            .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get()))
+            .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_LEGGINGS.get())
+            .pattern("RRR")
+            .pattern("R R")
+            .pattern("R R")
+            .define('R', ModItems.RUBY.get())
+            .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get()))
+            .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_BOOTS.get())
+            .pattern("R R")
+            .pattern("R R")
+            .define('R', ModItems.RUBY.get())
+            .unlockedBy(getHasName(ModItems.RUBY.get()), has(ModItems.RUBY.get()))
+            .save(pWriter);
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
