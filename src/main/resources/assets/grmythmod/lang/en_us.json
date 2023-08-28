@@ -55,5 +55,13 @@
 
   "item.grmythmod.ruby_hoe" : "Ruby Hoe",
 
+  "item.grmythmod.ruby_helmet" : "Ruby Helmet",
+
+  "item.grmythmod.ruby_chestplate" : "Ruby Chestplate",
+
+  "item.grmythmod.ruby_leggings" : "Ruby Leggings",
+
+  "item.grmythmod.ruby_boots" : "Ruby Boots",
+
   "creative.myth_tab": "Greek Myth Tab"
 }
