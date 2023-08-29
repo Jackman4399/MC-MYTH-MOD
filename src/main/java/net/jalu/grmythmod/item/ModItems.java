@@ -39,12 +39,12 @@ public class ModItems {
         () -> new FuelItem( new Item.Properties(), 400));
 
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
-        () -> new SwordItem(ModToolTiers.RUBY, 4, 2, new Item.Properties()));
+        () -> new SwordItem(ModToolTiers.RUBY, 4, 1f, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.RUBY, 1, 1, new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.RUBY, 1, 0.8f, new Item.Properties()));
 
     public static final RegistryObject<Item> RUBY_AXE = ITEMS.register("ruby_axe",
-            () -> new AxeItem(ModToolTiers.RUBY, 7, 1, new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.RUBY, 7, 1f, new Item.Properties()));
 
     public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
             () -> new ShovelItem(ModToolTiers.RUBY, 0, 0, new Item.Properties()));
