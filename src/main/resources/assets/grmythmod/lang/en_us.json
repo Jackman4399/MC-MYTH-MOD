@@ -43,7 +43,25 @@
 
   "block.grmythmod.ruby_trapdoor" : "Ruby Trapdoor",
 
-  "block.grmythmod.ruby_staff" : "Ruby Staff",
+  "item.grmythmod.ruby_staff" : "Ruby Staff",
+
+  "item.grmythmod.ruby_sword" : "Ruby Sword",
+
+  "item.grmythmod.ruby_pickaxe" : "Ruby Pickaxe",
+
+  "item.grmythmod.ruby_axe" : "Ruby Axe",
+
+  "item.grmythmod.ruby_shovel" : "Ruby Shovel",
+
+  "item.grmythmod.ruby_hoe" : "Ruby Hoe",
+
+  "item.grmythmod.ruby_helmet" : "Ruby Helmet",
+
+  "item.grmythmod.ruby_chestplate" : "Ruby Chestplate",
+
+  "item.grmythmod.ruby_leggings" : "Ruby Leggings",
+
+  "item.grmythmod.ruby_boots" : "Ruby Boots",
 
   "creative.myth_tab": "Greek Myth Tab"
 }

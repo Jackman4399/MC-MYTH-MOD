@@ -6,6 +6,7 @@ import net.jalu.grmythmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -28,8 +29,13 @@ public class ModBlockTagGenetaror extends BlockTagsProvider {
             .add(
                 ModBlocks.RUBY_ORE.get(),
                 ModBlocks.NETHER_RUBY_ORE.get(),
-                ModBlocks.END_STONE_RUBY_ORE.get(),
                 ModBlocks.DEEPSLATE_RUBY_ORE.get()
+            );
+
+        this.tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
+            .add(
+                ModBlocks.END_STONE_RUBY_ORE.get(),
+                ModBlocks.SOUND_BLOCK.get()
             );
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
