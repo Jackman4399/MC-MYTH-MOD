@@ -3,6 +3,7 @@ package net.jalu.grmythmod.item;
 import net.jalu.grmythmod.MythMod;
 import net.jalu.grmythmod.item.custom.FuelItem;
 import net.jalu.grmythmod.item.custom.MetalDetectorItem;
+import net.jalu.grmythmod.item.custom.ModArmorItem;
 import net.jalu.grmythmod.item.custom.NectarItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -55,7 +56,7 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
         () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
-        () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+        () -> new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
         () -> new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
