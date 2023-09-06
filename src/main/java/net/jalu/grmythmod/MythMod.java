@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.jalu.grmythmod.block.ModBlocks;
 import net.jalu.grmythmod.item.ModCreativeModeTabs;
 import net.jalu.grmythmod.item.ModItems;
+import net.jalu.grmythmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +35,8 @@ public class MythMod {
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
