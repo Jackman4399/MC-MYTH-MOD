@@ -1,5 +1,6 @@
-// 1.20.1	2023-09-06T16:36:51.4798375	Global Loot Modifiers : grmythmod
-1c53b21596475920d8a6e7656b35de26f2ee75e2 data/forge/loot_modifiers/global_loot_modifiers.json
+// 1.20.1	2023-09-07T12:13:39.2130725	Global Loot Modifiers : grmythmod
+9a02a3f4a4c35c110065ebbe4332611227cf1c30 data/forge/loot_modifiers/global_loot_modifiers.json
 2a7a620f75e37f32ac07ec1aff97da6c29b8fcbd data/grmythmod/loot_modifiers/metal_detector_from_jungle_temples.json
+1553f1b654bf0c579db51df11c4fed648239e3d2 data/grmythmod/loot_modifiers/metal_detector_from_suspicious_sand.json
 20d871c66034bd5e89484ecf4180df12fdc9edea data/grmythmod/loot_modifiers/pine_cone_from_creeper.json
 2c1421e2585d8666e810b043448c6eb062a4f813 data/grmythmod/loot_modifiers/pine_cone_from_grass.json
