@@ -52,6 +52,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.METAL_DETECTOR);
         simpleItem(ModItems.STRAWBERRY);
+        simpleItem(ModItems.STRAWBERRY_SEEDS);
 
         simpleBlockItem(ModBlocks.RUBY_DOOR);
 
@@ -76,6 +77,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.RUBY_CHESTPLATE);
         trimmedArmorItem(ModItems.RUBY_LEGGINGS);
         trimmedArmorItem(ModItems.RUBY_BOOTS);
+
+
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {

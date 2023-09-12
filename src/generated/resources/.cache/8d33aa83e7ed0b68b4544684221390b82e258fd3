@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-28T18:11:39.2372144	Item Models: grmythmod
+// 1.20.1	2023-09-12T18:35:06.1183057	Item Models: grmythmod
 65b74726da76b4c0a129f039d772a77a28759f89 assets/grmythmod/models/item/metal_detector.json
 efb654c0e3402e51d289a8c55ea5e420019e5a80 assets/grmythmod/models/item/nectar.json
 29ec81e17aecf401fe4e7d0c68a4ba4701ac0388 assets/grmythmod/models/item/pine_cone.json
@@ -63,3 +63,4 @@ a35314ea22bdda14ee943555bf0f5121ff853788 assets/grmythmod/models/item/ruby_stair
 9c979adb768ebdd972d8de90a2e8a2fce43dbda2 assets/grmythmod/models/item/ruby_trapdoor.json
 121a64b219a66284e4b7b9ed7f0154e31a8ffbf8 assets/grmythmod/models/item/ruby_wall.json
 ec34340ef0ad3da69a6dc3407bb54b29016c9029 assets/grmythmod/models/item/strawberry.json
+4a2056ac3f0d05220524f00bf108d6f9b57d783c assets/grmythmod/models/item/strawberry_seeds.json

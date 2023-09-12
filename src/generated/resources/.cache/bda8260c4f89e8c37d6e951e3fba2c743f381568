@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-17T19:51:12.6895804	Block States: grmythmod
+// 1.20.1	2023-09-12T18:35:06.1152576	Block States: grmythmod
 114d845489637660d3902ca74d1517d85428cc54 assets/grmythmod/blockstates/deepslate_ruby_ore.json
 b7421c170c62af5a21244895da4657e871d80c85 assets/grmythmod/blockstates/end_stone_ruby_ore.json
 0d974e6e619b658edce50df75463b8b9d8d370f4 assets/grmythmod/blockstates/nether_ruby_ore.json
@@ -14,6 +14,7 @@ bd2b12368efbba0c94e495c6c8c39a455d72464f assets/grmythmod/blockstates/ruby_press
 31545584aabcffce59dec0d4bea03441162af6fd assets/grmythmod/blockstates/ruby_trapdoor.json
 efcf23fc125e4a31a3003c89cc7e6d8f8d9258c8 assets/grmythmod/blockstates/ruby_wall.json
 fc40e5a0d304178f02a4b2f5768f3b0e6cc87909 assets/grmythmod/blockstates/sound_block.json
+4b9488ce202cf0b55bdffe40bb44acd2f099b5f8 assets/grmythmod/blockstates/strawberry_crop.json
 ba17b03ecb186412ec48e06286aa291312767227 assets/grmythmod/models/block/deepslate_ruby_ore.json
 4bfd0a3c12f12531b65548b71f364dfbda97d6e4 assets/grmythmod/models/block/end_stone_ruby_ore.json
 6918ad47d7ffdc4e56c11e21142704dc1f72207a assets/grmythmod/models/block/nether_ruby_ore.json
@@ -49,6 +50,12 @@ b83d442d03123aab16d9cf90e229e4ca00f7a599 assets/grmythmod/models/block/ruby_wall
 3f1799589bb9f2724f0d501d892d726c0f32b571 assets/grmythmod/models/block/ruby_wall_side.json
 32aa696b612dbb31e43660366e14eb233cecf4e2 assets/grmythmod/models/block/ruby_wall_side_tall.json
 1ea75b524644b27347ce8fdc679c93dbf44fedf7 assets/grmythmod/models/block/sound_block.json
+e248c9ac8ac47a0c212f357619668563a07445f8 assets/grmythmod/models/block/strawberry_stage0.json
+37e79b15ee63f2a6c67437b45cfea21036632542 assets/grmythmod/models/block/strawberry_stage1.json
+ac5b70a61497e5c1a560f271335610bf952ee6b6 assets/grmythmod/models/block/strawberry_stage2.json
+ce996f1983183b2a864139838210bf86e702825d assets/grmythmod/models/block/strawberry_stage3.json
+7f595d6d9af4c5d2904eba2307b74534a2425747 assets/grmythmod/models/block/strawberry_stage4.json
+09d79e9d544104f746dc6ebdd8ddb0b1114c7329 assets/grmythmod/models/block/strawberry_stage5.json
 59f1da2bf2f3101a83dcb3a3bffc43ef8110b526 assets/grmythmod/models/item/deepslate_ruby_ore.json
 97237a34c57d02a7214301169a8b6c0906e1dfd6 assets/grmythmod/models/item/end_stone_ruby_ore.json
 895a1d9d4b5540fcde4eb6c4abddcba013032c67 assets/grmythmod/models/item/nether_ruby_ore.json

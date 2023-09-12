@@ -1,31 +1,31 @@
-[07Sept2023 12:13:26.399] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\jiech_061gte6\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, grmythmod, --all, --output, C:\Users\jiech_061gte6\Documents\GRMYTHMOD\src\generated\resources, --existing, C:\Users\jiech_061gte6\Documents\GRMYTHMOD\src\main\resources]
-[07Sept2023 12:13:26.409] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[07Sept2023 12:13:26.631] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[07Sept2023 12:13:26.711] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/jiech_061gte6/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[07Sept2023 12:13:27.244] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jiech_061gte6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[07Sept2023 12:13:27.250] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jiech_061gte6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[07Sept2023 12:13:27.257] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jiech_061gte6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
-[07Sept2023 12:13:27.263] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jiech_061gte6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
-[07Sept2023 12:13:27.434] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[07Sept2023 12:13:29.704] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\jiech_061gte6\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, grmythmod, --all, --output, C:\Users\jiech_061gte6\Documents\GRMYTHMOD\src\generated\resources, --existing, C:\Users\jiech_061gte6\Documents\GRMYTHMOD\src\main\resources]
-[07Sept2023 12:13:30.506] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [grmythmod]
-[07Sept2023 12:13:37.239] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
-[07Sept2023 12:13:37.243] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
-[07Sept2023 12:13:38.257] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jiech_061gte6/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[07Sept2023 12:13:38.258] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jiech_061gte6/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[07Sept2023 12:13:38.598] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[07Sept2023 12:13:38.765] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 165 ms
-[07Sept2023 12:13:38.766] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[07Sept2023 12:13:38.858] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 90 ms
-[07Sept2023 12:13:38.858] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: grmythmod
-[07Sept2023 12:13:39.095] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: grmythmod finished after 235 ms
-[07Sept2023 12:13:39.095] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: grmythmod
-[07Sept2023 12:13:39.159] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: grmythmod finished after 63 ms
-[07Sept2023 12:13:39.159] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id grmythmod
-[07Sept2023 12:13:39.186] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id grmythmod finished after 26 ms
-[07Sept2023 12:13:39.187] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id grmythmod
-[07Sept2023 12:13:39.192] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id grmythmod finished after 4 ms
-[07Sept2023 12:13:39.192] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : grmythmod
-[07Sept2023 12:13:39.210] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : grmythmod finished after 17 ms
-[07Sept2023 12:13:39.210] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 612 ms
-[07Sept2023 12:13:39.237] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 193, old count: 192, new count: 194, removed stale: 0, written: 2
+[12Sept2023 18:34:54.084] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\jiech_061gte6\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.1.3, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, grmythmod, --all, --output, C:\Users\jiech_061gte6\Documents\GRMYTHMOD\src\generated\resources, --existing, C:\Users\jiech_061gte6\Documents\GRMYTHMOD\src\main\resources]
+[12Sept2023 18:34:54.099] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[12Sept2023 18:34:54.295] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[12Sept2023 18:34:54.368] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/jiech_061gte6/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[12Sept2023 18:34:54.861] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jiech_061gte6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.1.3\9775dc3f284cdb3e0d33b372c328c6ef88e434b0\javafmllanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[12Sept2023 18:34:54.866] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jiech_061gte6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.1.3\d785f4087ec3be094fd5aed801f5366ca958a81b\lowcodelanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[12Sept2023 18:34:54.870] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jiech_061gte6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.1.3\be60c45f3578cdf944a669c6ea16fd91bec50f2e\mclanguage-1.20.1-47.1.3.jar is missing mods.toml file
+[12Sept2023 18:34:54.875] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\jiech_061gte6\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.1.3\1aadc0201d8e97b107d9978c7fe066bb54bbb9dc\fmlcore-1.20.1-47.1.3.jar is missing mods.toml file
+[12Sept2023 18:34:55.022] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[12Sept2023 18:34:57.094] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\jiech_061gte6\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, grmythmod, --all, --output, C:\Users\jiech_061gte6\Documents\GRMYTHMOD\src\generated\resources, --existing, C:\Users\jiech_061gte6\Documents\GRMYTHMOD\src\main\resources]
+[12Sept2023 18:34:57.934] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [grmythmod]
+[12Sept2023 18:35:04.311] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.1.3, for MC 1.20.1 with MCP 20230612.114412
+[12Sept2023 18:35:04.315] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.1.3 Initialized
+[12Sept2023 18:35:05.134] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jiech_061gte6/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[12Sept2023 18:35:05.134] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/jiech_061gte6/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1/forge-1.20.1-47.1.3_mapped_parchment_2023.06.26-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[12Sept2023 18:35:05.604] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[12Sept2023 18:35:05.687] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 83 ms
+[12Sept2023 18:35:05.688] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[12Sept2023 18:35:05.800] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 112 ms
+[12Sept2023 18:35:05.802] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: grmythmod
+[12Sept2023 18:35:06.053] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: grmythmod finished after 251 ms
+[12Sept2023 18:35:06.053] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: grmythmod
+[12Sept2023 18:35:06.087] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: grmythmod finished after 34 ms
+[12Sept2023 18:35:06.087] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id grmythmod
+[12Sept2023 18:35:06.104] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id grmythmod finished after 16 ms
+[12Sept2023 18:35:06.104] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id grmythmod
+[12Sept2023 18:35:06.106] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id grmythmod finished after 1 ms
+[12Sept2023 18:35:06.106] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : grmythmod
+[12Sept2023 18:35:06.114] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : grmythmod finished after 6 ms
+[12Sept2023 18:35:06.114] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 510 ms
+[12Sept2023 18:35:06.135] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 202, old count: 193, new count: 203, removed stale: 0, written: 9

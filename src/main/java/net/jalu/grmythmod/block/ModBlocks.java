@@ -2,6 +2,7 @@ package net.jalu.grmythmod.block;
 
 import net.jalu.grmythmod.MythMod;
 import net.jalu.grmythmod.block.custom.SoundBlock;
+import net.jalu.grmythmod.block.custom.StrawberryCropBlock;
 import net.jalu.grmythmod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -66,6 +67,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
         () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).noOcclusion(),
             BlockSetType.IRON));
+
+        public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+        () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
     // To add a new block, add another registry object ^, then add it to the tabs in the main class //
 

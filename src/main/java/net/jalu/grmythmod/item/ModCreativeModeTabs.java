@@ -59,6 +59,8 @@ public class ModCreativeModeTabs {
                 pOutput.accept(ModItems.RUBY_LEGGINGS.get());
                 pOutput.accept(ModItems.RUBY_BOOTS.get());
 
+                pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
+
             })).build());
 
     public static void register(IEventBus eventBus) {
